@@ -7,8 +7,8 @@ class Dog
 
   # ATTRIBUTES.keys.each do |key|
   #   attr_accessor key
-  # end
-# attr_accessor :name, :breed, :id
+  end
+attr_accessor :name, :breed, :id
 
   def initialize( id:nil, name:, breed:)
     @name = name 

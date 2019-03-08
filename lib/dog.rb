@@ -61,8 +61,8 @@ attr_accessor :name, :breed, :id
     DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
   
-  def self.create(attrs)
-    new_dog = Dog.new(attrs)
+  def self.create(hash)
+    new_dog = Dog.new(hash)
     new_dog.save
     new_dog
   end

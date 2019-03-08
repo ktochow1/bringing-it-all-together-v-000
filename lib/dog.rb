@@ -100,7 +100,7 @@ attr_accessor :name, :breed, :id
   
       if !dog.empty?
         dog_data = dog[0] #outer array
-        dog = Dog.new(id: dog_data[0], name: dog_data[1], breed: dog_data[2])#inner array with 3 values
+        dog = Dog.new(id: dog_data[0], name: dog_data[1], breed: dog_data[2]) #inner array with 3 values
       else
         dog = self.create(name: name, breed: breed)
       end

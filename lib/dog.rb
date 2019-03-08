@@ -59,7 +59,7 @@ attr_accessor :name, :breed, :id
     SET name = ?, breed = ? WHERE id = ?
     }
     DB[:conn].execute(sql, self.name, self.breed, self.id)
-    #how does this method work?
+    #how does sql have details of ruby object
   end
   
   def self.create(hash)

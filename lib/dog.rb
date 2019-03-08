@@ -51,6 +51,7 @@ attr_accessor :name, :breed, :id
     new_doggo.name =  row[1]
     new_doggo.breed = row[2]
     new_doggo 
+    #how does ruby and sql interact here?
   end
 
   

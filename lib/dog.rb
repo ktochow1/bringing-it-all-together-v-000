@@ -96,6 +96,7 @@ attr_accessor :name, :breed, :id
       }
   
       dog = DB[:conn].execute(sql,name,breed)
+      binding.pry
   
       if !dog.empty?
         dog_data = dog[0]

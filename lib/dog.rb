@@ -1,9 +1,9 @@
 class Dog 
-attrs = {
-  :id => "INTEGER PRIMARY KEY",
-  :name => "TEXT",
-  :breed => "TEXT"
-}
+# attrs = {
+#   :id => "INTEGER PRIMARY KEY",
+#   :name => "TEXT",
+#   :breed => "TEXT"
+# }
 
   # ATTRIBUTES.keys.each do |key|
   #   attr_accessor key

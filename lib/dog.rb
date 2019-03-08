@@ -1,13 +1,5 @@
 class Dog 
-# attrs = {
-#   :id => "INTEGER PRIMARY KEY",
-#   :name => "TEXT",
-#   :breed => "TEXT"
-# }
 
-  # ATTRIBUTES.keys.each do |key|
-  #   attr_accessor key
-  # end
 attr_accessor :name, :breed, :id
 
   def initialize( id:nil, name:, breed:)
